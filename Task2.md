@@ -6,7 +6,7 @@
 # Add leading 0 number
 # ex: 5 => 0005
 private function convertNumber($number) {
-    if (strlen($number) === 1) {
+    if (strlen($number) === 1 && strlen($number) === 5) {
         $number = '000' + $number;
     }
 
